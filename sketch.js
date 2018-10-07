@@ -147,6 +147,6 @@ function ending() {
   background(255);
   noStroke(); fill(0);
   textFont("Charmonman", 48);
-  text("Chúc em sinh nhật thật hạnh phúc <3", column, 100);
-  image(img, 480, 180);
+  text("Chúc em sinh nhật thật hạnh phúc <3", column + 100, 100);
+  image(img, 400, 180);
 }
