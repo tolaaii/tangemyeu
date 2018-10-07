@@ -112,7 +112,7 @@ function displayOnScreen() {
   }
 
   if(seconz < 34) {
-    if(seconz > 19) displayText("Cũng lâu ghê rồi ấy nhỉ :p", column, 100, 9);
+    if(seconz >= 18) displayText("Cũng lâu ghê rồi ấy nhỉ :p", column, 100, 9);
     if(seconz > 21) displayText("Cùng nhau qua bao nhiêu chuyện...", column, 100 + exrow, 10);
     if(seconz > 23) displayText("mới ngày đầu yêu nhau, còn hơi chút chưa quen...", column, 100 + exrow*2, 11);
     if(seconz > 25) displayText("sau đó là một chút đi chơi với nhau :D, đi xung quanh bờ hồ, rồi đi khắp phố cổ...", column, 100 + exrow*3, 12);
@@ -123,7 +123,7 @@ function displayOnScreen() {
   }
 
   if(seconz < 44) {
-    if(seconz > 34) displayText("Anh chỉ muốn nói rằng:...", column, 100, 17);
+    if(seconz >= 34) displayText("Anh chỉ muốn nói rằng:...", column, 100, 17);
     if(seconz > 36) displayText("Bên cạnh em qua nhiều ngày qua.........", column, 100 + exrow, 18);
     if(seconz > 38) displayText("anh thấy hạnh phúc lắm đó ^^", column, 100 + exrow*2, 19);
     if(seconz > 40) displayText("cảm ơn em... và yêu em nhiều lắm <3", column, 100 + exrow*3, 20);
@@ -131,7 +131,7 @@ function displayOnScreen() {
   }
 
   if(seconz < 60) {
-    if(seconz > 44) displayText("Hì......", column, 100, 21);
+    if(seconz >= 44) displayText("Hì......", column, 100, 21);
     if(seconz > 46) displayText("Quà anh tặng em chỉ nho nhỏ thế thôi,", column, 100 + exrow, 22);
     if(seconz > 48) displayText("nhưng mà là đồ handmade đó :v", column, 100 + exrow*2, 23);
     if(seconz > 50) displayText("Mong em thích món quà này ^^ !", column, 100 + exrow*3, 24);
